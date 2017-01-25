@@ -6,7 +6,8 @@
 	<?php
 
 
-	
+	// ALL VARIABLES IN PHP START WITH $
+	// NAMES IN POST METHOD MUST MATCH NAMES OF INPUT FIELDS IN HTML FILE
 		$first_name = $_POST['first_name'];
 		$last_name = $_POST['last_name'];
 		$email = $_POST['email'];
