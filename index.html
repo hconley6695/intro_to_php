@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intro PHP -  GetUWired</title>
+</head>
+
+<style type="text/css">
+	form {
+		display: block;
+		padding: 10px;
+	}
+
+	label, input {
+		display: block;
+		line-height: 24px;
+		font-size: 16px;
+		width: 400px;
+		text-overflow: ellipsis;
+	}
+
+	textarea {
+		width: 400px;
+		line-height: 24px;
+
+	}
+
+	input.btn {
+		width: 150px;
+		height: 30px;
+		background-color: green;
+		color: white;
+		border-radius: 5px;
+		border: 0.5px solid black;
+	}
+</style>
+<body>
+
+	<div>
+		<form action="index.php" method="post">
+			<label for="first">First Name:</label>
+			<input type="text" name="first_name" id="first">
+			
+			<label for="last">Last Name:</label>
+			<input type="text" name="last_name" id="last">
+
+			<label for="usremail">Email Address:</label>
+			<input type="email" name="email" id="usremail">
+
+			<label for="subjline">Subject:</label>
+			<input type="text" name="subject" id="subjline">
+
+			<label for="msg">Message:</label>
+			<textarea rows="10" columns="50" name="message" id="msg"></textarea> 
+
+			<input class="btn" type="submit" name="submit">			
+		</form>
+	</div>
+
+</body>
+</html>
